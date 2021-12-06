@@ -4694,7 +4694,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "Twitter",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://twitter.com/defiswap_app",
     },
     {
         label: "Telegram",
@@ -4702,77 +4702,77 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/pancakeswap",
+                href: "https://t.me/DeFiSwap_exchange",
             },
-            {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/PancakeSwapIndonesia",
-            },
-            {
-                label: "中文",
-                href: "https://t.me/PancakeSwap_CN",
-            },
-            {
-                label: "Tiếng Việt",
-                href: "https://t.me/PancakeSwapVN",
-            },
-            {
-                label: "Italiano",
-                href: "https://t.me/pancakeswap_ita",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/pancakeswap_ru",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/pancakeswapturkiye",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/PancakeSwapPortuguese",
-            },
-            {
-                label: "Español",
-                href: "https://t.me/PancakeswapEs",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/pancakeswapjp",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/pancakeswapfr",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/PancakeSwapAnn",
-            },
-            {
-                label: "Whale Alert",
-                href: "https://t.me/PancakeSwapWhales",
-            },
+            //{
+            //  label: "Bahasa Indonesia",
+            //  href: "https://t.me/PancakeSwapIndonesia",
+            //  },
+            //  {
+            //  label: "中文",
+            //  href: "https://t.me/PancakeSwap_CN",
+            //  },
+            //  {
+            //    label: "Tiếng Việt",
+            //  href: "https://t.me/PancakeSwapVN",
+            //  },
+            //  {
+            //  label: "Italiano",
+            //  href: "https://t.me/pancakeswap_ita",
+            //  },
+            //  {
+            //    label: "русский",
+            //    href: "https://t.me/pancakeswap_ru",
+            //  },
+            //  {
+            //  label: "Türkiye",
+            //    href: "https://t.me/pancakeswapturkiye",
+            //  },
+            //  {
+            //  label: "Português",
+            //  href: "https://t.me/PancakeSwapPortuguese",
+            //  },
+            //  {
+            //  label: "Español",
+            //  href: "https://t.me/PancakeswapEs",
+            //  },
+            //  {
+            //  label: "日本語",
+            //  href: "https://t.me/pancakeswapjp",
+            //  },
+            //  {
+            //    label: "Français",
+            //    href: "https://t.me/pancakeswapfr",
+            //  },
+            //  {
+            //    label: "Announcements",
+            //    href: "https://t.me/PancakeSwapAnn",
+            //  },
+            //  {
+            //  label: "Whale Alert",
+            //    href: "https://t.me/PancakeSwapWhales",
+            //  },
         ],
     },
     {
         label: "Reddit",
         icon: "Reddit",
-        href: "https://reddit.com/r/pancakeswap",
+        href: "https://www.reddit.com/r/defiswap_exchange/",
     },
     {
         label: "Instagram",
         icon: "Instagram",
-        href: "https://instagram.com/pancakeswap_official",
+        href: "https://www.instagram.com/defiswap_exhange/",
     },
     {
         label: "Github",
         icon: "Github",
-        href: "https://github.com/pancakeswap/",
+        href: "https://github.com/defiswap_app/",
     },
     {
         label: "Discord",
         icon: "Discord",
-        href: "https://discord.gg/pancakeswap",
+        href: "https://discord.gg/mM4rNGkd",
     },
 ];
 __spreadArray([], Array(20)).map(function (_, i) { return ({
