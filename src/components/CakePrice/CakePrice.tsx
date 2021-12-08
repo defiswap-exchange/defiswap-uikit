@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { PancakeRoundIcon } from "../Svg";
+import { LogoIcon } from "../Svg";
 import Text from "../Text/Text";
 import Skeleton from "../Skeleton/Skeleton";
 import { Colors } from "../../theme";
@@ -29,7 +29,7 @@ const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "textSubtle" }) => {
       href="https://defiswap.app/swap?outputCurrency=0x54975e921f1fded47272d33136883c8f5fb7f3a5"
       target="_blank"
     >
-      <PancakeRoundIcon width="24px" mr="8px" />
+      <LogoIcon width="24px" mr="8px" />
       <Text color={color} bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
