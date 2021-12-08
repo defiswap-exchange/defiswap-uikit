@@ -800,7 +800,15 @@ var Logo$2 = function (_a) {
                     React__default['default'].createElement("g", null,
                         React__default['default'].createElement("text", { transform: "matrix(1.0018 0 0 1 42.5288 64.6945)", fill: wrapColor, fontFamily: "aAtmospheric", fontSize: "29.5px" }, "D")),
                     React__default['default'].createElement("polygon", { fill: wrapColor, points: "75.3,45.18 55.51,25.44 35.76,45.17 24.34,33.77 55.53,2.62 66.95,14.01 66.93,14.04 86.71,33.78 \n                    " })),
-                React__default['default'].createElement("text", { transform: "matrix(1 0 0 1 138.213 73.1505)", fill: textColor, fontFamily: "aAtmospheric", fontSize: "54px" }, "DeFiSwap")))));
+                React__default['default'].createElement("g", { enableBackground: "new" },
+                    React__default['default'].createElement("path", { fill: textColor, d: "M142.2,46.4l10-2.7v20.6h15.7c3,0,5.3-1.7,6.9-5c1-2.1,1.5-4.6,1.5-7.3c0-4.1-1-7.3-3.1-9.5     c-1.4-1.5-3.2-2.3-5.3-2.3h-25.7l2.7-8.9h24.2c5.7,0,10.2,2.4,13.6,7.2c2.8,4,4.2,8.7,4.2,14.2c0,5.8-1.5,10.6-4.6,14.4     c-3.3,4-7.6,6.1-13.1,6.1h-26.9V46.4z" }),
+                    React__default['default'].createElement("path", { fill: textColor, d: "M201.8,56.7v7.5h30.6l-2.7,8.9h-37.9V31.2h40.6l-2.7,8.9h-27.9v7.6h26v8.9H201.8z" }),
+                    React__default['default'].createElement("path", { fill: textColor, d: "M248.4,56.7v16.5h-10V31.2h40l-2.7,8.9h-27.3v7.6h25.5v8.9H248.4z" }),
+                    React__default['default'].createElement("path", { fill: textColor, d: "M282.7,31.2h10v41.9h-10V31.2z" }),
+                    React__default['default'].createElement("path", { fill: textColor, d: "M314,56.6c-5.6,0-9.8-1.8-12.6-5.4c-1.7-2.1-2.5-4.6-2.5-7.3c0-3.7,1.4-6.7,4.1-9.1s6.4-3.6,10.9-3.6h28.5     l-2.7,8.9h-25.7c-2.1,0-3.6,0.8-4.3,2.4c-0.2,0.5-0.3,1-0.3,1.5c0,1.5,0.7,2.6,2.2,3.3c0.7,0.3,1.5,0.5,2.4,0.5h14.4     c5.4,0,9.5,1.7,12.2,5.2c1.8,2.2,2.6,4.7,2.6,7.5c0,3.7-1.4,6.7-4.1,9.1c-2.7,2.4-6.3,3.6-10.8,3.6H299l2.7-8.9h26.8     c2.2,0,3.6-0.8,4.3-2.3c0.2-0.5,0.3-0.9,0.3-1.4c0-1.5-0.7-2.6-2.1-3.3c-0.7-0.4-1.6-0.5-2.5-0.5H314z" }),
+                    React__default['default'].createElement("path", { fill: textColor, d: "M358.8,74.2l-13.2-43h10.5l8,30.3l11.8-30.3h6.1l11.8,30.3l8-30.3h10.5l-13.6,40.3l-10,2.7l-9.8-26.6     l-10.1,23.9L358.8,74.2z" }),
+                    React__default['default'].createElement("path", { fill: textColor, d: "M424.1,67.6l3.6-8.5h11.7l-8.2-17.4l-14.6,31.5h-10.5L426,32.9l10-2.7l20.6,43h-10.5l-2.6-5.6H424.1z" }),
+                    React__default['default'].createElement("path", { fill: textColor, d: "M459.7,46.3l10-2.7V51h19.5c2,0,3.3-1,4.1-3c0.3-0.8,0.5-1.7,0.5-2.5c0-2.1-0.7-3.7-2.2-4.7     c-0.7-0.5-1.5-0.7-2.4-0.7h-29.5l2.7-8.9h26.4c5.4,0,9.5,1.9,12.5,5.7c2,2.7,3.1,5.7,3.1,9.1c0,4.1-1.5,7.5-4.4,10.1     c-2.8,2.5-6.6,3.8-11.2,3.8h-19.1v13.2h-10V46.3z" }))))));
 };
 var LogoWithTextIcon = React__default['default'].memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
