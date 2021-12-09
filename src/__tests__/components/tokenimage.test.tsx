@@ -6,7 +6,7 @@ it("renders correctly", () => {
   setupMockIntersectionObserver();
   const { asFragment } = renderWithTheme(
     <TokenImage
-      src="https://defiswap.app/images/tokens/0x54975e921f1fded47272d33136883c8f5fb7f3a5.svg"
+      src="https://defiswap.app/images/tokens/0x1892A5618234Afd97Fd9759a690b43426BfD1B30.svg"
       height={48}
       width={48}
     />

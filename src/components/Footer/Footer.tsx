@@ -91,7 +91,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://defiswap.app/swap?outputCurrency=0x54975e921f1fded47272d33136883c8f5fb7f3a5"
+              href="https://defiswap.app/swap?outputCurrency=0x1892A5618234Afd97Fd9759a690b43426BfD1B30"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
