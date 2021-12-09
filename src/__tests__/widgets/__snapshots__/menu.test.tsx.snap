@@ -1880,7 +1880,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c27"
-              href="https://defiswap.app/swap?outputCurrency=0x1892A5618234Afd97Fd9759a690b43426BfD1B30"
+              href="https://defiswap.app/swap?outputCurrency=0x6f4217e1eF964D24e2F700E86Cb28ec81cAD5205"
               target="_blank"
             >
               <svg
@@ -3238,7 +3238,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c27"
-                    href="https://defiswap.app/swap?outputCurrency=0x1892A5618234Afd97Fd9759a690b43426BfD1B30"
+                    href="https://defiswap.app/swap?outputCurrency=0x6f4217e1eF964D24e2F700E86Cb28ec81cAD5205"
                     target="_blank"
                   >
                     <svg
@@ -3393,7 +3393,7 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c93"
-                  href="https://defiswap.app/swap?outputCurrency=0x1892A5618234Afd97Fd9759a690b43426BfD1B30"
+                  href="https://defiswap.app/swap?outputCurrency=0x6f4217e1eF964D24e2F700E86Cb28ec81cAD5205"
                   scale="sm"
                   target="_blank"
                 >
