@@ -2047,7 +2047,7 @@ var useOnClickOutside = function (ref, handler) {
             document.removeEventListener("mousedown", listener);
             document.removeEventListener("touchstart", listener);
         };
-    }, 
+    },
     // It's worth noting that because passed in handler is a new ...
     // ... function on every render that will cause this effect ...
     // ... callback/cleanup to run every render. It's not a big deal ...
@@ -3807,7 +3807,7 @@ var sortDataInOrder = function (data, columns) {
 };
 var makeRender = function (
 // eslint-disable-next-line
-value, 
+value,
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 render, row) {
     return render ? function () { return render({ row: row, value: value }); } : function () { return value; };
@@ -4964,7 +4964,7 @@ var templateObject_1$8;
 
 var LangSelector = function (_a) {
     var currentLang = _a.currentLang, langs = _a.langs, color = _a.color, setLang = _a.setLang, _b = _a.dropdownPosition, dropdownPosition = _b === void 0 ? "bottom" : _b, _c = _a.buttonScale, buttonScale = _c === void 0 ? "md" : _c, _d = _a.hideLanguage, hideLanguage = _d === void 0 ? false : _d;
-    return (React__default.createElement(Dropdown, { position: dropdownPosition, target: React__default.createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default.createElement(Icon$1n, { color: color, width: "24px" }) }, !hideLanguage && React__default.createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default.createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); }, 
+    return (React__default.createElement(Dropdown, { position: dropdownPosition, target: React__default.createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default.createElement(Icon$1n, { color: color, width: "24px" }) }, !hideLanguage && React__default.createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default.createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); },
         // Safari fix
         style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
 };
@@ -5537,7 +5537,7 @@ var ConnectModal = function (_a) {
                     !showMore && React__default.createElement(MoreWalletCard, { t: t, onClick: function () { return setShowMore(true); } }))),
             React__default.createElement(Box, { p: "24px" },
                 React__default.createElement(Text, { textAlign: "center", color: "textSubtle", as: "p", mb: "16px" }, t("Haven’t got a crypto wallet yet?")),
-                React__default.createElement(Button, __assign({ as: "a", href: "https://docs.defiswap.app/get-started/connection-guide", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
+                React__default.createElement(Button, __assign({ as: "a", href: "https://docs.defiswap.app/get-started/connect-your-wallet-to-defiswap", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
 };
 var templateObject_1$1;
 

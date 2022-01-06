@@ -655,7 +655,7 @@ it("renders ConnectModal correctly", () => {
             </p>
             <a
               class="c22"
-              href="https://docs.defiswap.app/get-started/connection-guide"
+              href="https://docs.defiswap.app/get-started/connect-your-wallet-to-defiswap"
               rel="noreferrer noopener"
               scale="md"
               target="_blank"
