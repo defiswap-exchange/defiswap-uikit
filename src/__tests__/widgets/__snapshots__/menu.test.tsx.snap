@@ -1880,7 +1880,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c27"
-              href="https://defiswap.app/swap?outputCurrency=0x6f4217e1eF964D24e2F700E86Cb28ec81cAD5205"
+              href="https://ico.defiswap.app/"
               target="_blank"
             >
               <svg
@@ -2201,7 +2201,7 @@ exports[`renders correctly 1`] = `
               </div>
             </div>
           </div>
-           
+
         </div>
       </nav>
     </div>
@@ -3238,7 +3238,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c27"
-                    href="https://defiswap.app/swap?outputCurrency=0x6f4217e1eF964D24e2F700E86Cb28ec81cAD5205"
+                    href="https://ico.defiswap.app/"
                     target="_blank"
                   >
                     <svg
