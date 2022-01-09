@@ -3393,7 +3393,7 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c93"
-                  href="https://defiswap.app/swap?outputCurrency=0x6f4217e1eF964D24e2F700E86Cb28ec81cAD5205"
+                  href="https://ico.defiswap.app/"
                   scale="sm"
                   target="_blank"
                 >
