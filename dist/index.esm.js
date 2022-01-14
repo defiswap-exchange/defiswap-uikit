@@ -2052,7 +2052,7 @@ var useOnClickOutside = function (ref, handler) {
             document.removeEventListener("mousedown", listener);
             document.removeEventListener("touchstart", listener);
         };
-    }, 
+    },
     // It's worth noting that because passed in handler is a new ...
     // ... function on every render that will cause this effect ...
     // ... callback/cleanup to run every render. It's not a big deal ...
@@ -2392,7 +2392,7 @@ var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
     return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://ico.defiswap.app/", target: "_blank" },
         React__default.createElement(Icon$1g, { width: "24px", mr: "8px" }),
-        React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
+        React__default.createElement(Text, { color: color, bold: true }, "USD" + cakePriceUsd.toFixed(3)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePrice$1 = React__default.memo(CakePrice);
 var templateObject_1$Q;
@@ -3796,7 +3796,7 @@ var sortDataInOrder = function (data, columns) {
 };
 var makeRender = function (
 // eslint-disable-next-line
-value, 
+value,
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 render, row) {
     return render ? function () { return render({ row: row, value: value }); } : function () { return value; };
@@ -4953,7 +4953,7 @@ var templateObject_1$8;
 
 var LangSelector = function (_a) {
     var currentLang = _a.currentLang, langs = _a.langs, color = _a.color, setLang = _a.setLang, _b = _a.dropdownPosition, dropdownPosition = _b === void 0 ? "bottom" : _b, _c = _a.buttonScale, buttonScale = _c === void 0 ? "md" : _c, _d = _a.hideLanguage, hideLanguage = _d === void 0 ? false : _d;
-    return (React__default.createElement(Dropdown, { position: dropdownPosition, target: React__default.createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default.createElement(Icon$1m, { color: color, width: "24px" }) }, !hideLanguage && React__default.createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default.createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); }, 
+    return (React__default.createElement(Dropdown, { position: dropdownPosition, target: React__default.createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default.createElement(Icon$1m, { color: color, width: "24px" }) }, !hideLanguage && React__default.createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default.createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); },
         // Safari fix
         style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
 };
