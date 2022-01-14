@@ -1,67 +1,42 @@
 import React from "react";
+import styled, { keyframes } from "styled-components";
+import PanIcon from "./PanIcon";
+import { SpinnerProps } from "./types";
 
-function Icon() {
+
+const pulse = keyframes`
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(0deg); }
+  40% { transform: rotate(0deg); }
+  50% { transform: scale(1); }
+  55% { transform: scale(1.1); }
+  60% { transform: scale(1.2); }
+  65% { transform: scale(1.3); }
+  70% { transform: scale(1.4); }
+  75% { transform: scale(1.5); }
+  80% { transform: scale(1.2); }
+  90% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+`;
+
+const Container = styled.div`
+  position: relative;
+`;
+
+const FloatingPanIcon = styled(PanIcon)`
+// position: absolute;
+top: 0;
+left: 0;
+animation: ${pulse} 5s linear infinite;
+transform: translate3d(0, 0, 0);
+`;
+
+const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      style={{ margin: "auto", background: "none" }}
-      width="200"
-      height="200"
-      display="block"
-      preserveAspectRatio="xMidYMid"
-      viewBox="0 0 100 100"
-    >
-      <circle
-        cx="50"
-        cy="50"
-        r="0"
-        fill="none"
-        stroke="#ffb400"
-        strokeWidth="10"
-      >
-        <animate
-          attributeName="r"
-          begin="-1.1904761904761905s"
-          calcMode="spline"
-          dur="2.380952380952381s"
-          keySplines="0 0.2 0.8 1"
-          keyTimes="0;1"
-          repeatCount="indefinite"
-          values="0;35"
-        ></animate>
-        <animate
-          attributeName="opacity"
-          begin="-1.1904761904761905s"
-          calcMode="spline"
-          dur="2.380952380952381s"
-          keySplines="0.2 0 0.8 1"
-          keyTimes="0;1"
-          repeatCount="indefinite"
-          values="1;0"
-        ></animate>
-      </circle>
-      <circle cx="50" cy="50" r="0" fill="none" stroke="#000" strokeWidth="10">
-        <animate
-          attributeName="r"
-          calcMode="spline"
-          dur="2.380952380952381s"
-          keySplines="0 0.2 0.8 1"
-          keyTimes="0;1"
-          repeatCount="indefinite"
-          values="0;35"
-        ></animate>
-        <animate
-          attributeName="opacity"
-          calcMode="spline"
-          dur="2.380952380952381s"
-          keySplines="0.2 0 0.8 1"
-          keyTimes="0;1"
-          repeatCount="indefinite"
-          values="1;0"
-        ></animate>
-      </circle>
-    </svg>
+    <Container>
+      <FloatingPanIcon width={`${size * 0.5}px`} />
+    </Container>
   );
-}
+};
 
-export default Icon;
+export default Spinner;
